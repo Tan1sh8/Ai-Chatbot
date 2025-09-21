@@ -28,11 +28,11 @@ active_channel_id = config.get("channel_id")  # Load saved channel
 
 @bot.event
 async def on_ready():
-    print(f"Subscribe to KNIGHT GAMING YT!!")
+    print(f"Created By Skyler/Tanisha")
     print(f"Logged in as {bot.user}!!")
 
     await bot.change_presence(
-        activity=discord.Activity(type=discord.ActivityType.watching, name="KNIGHT GAMING BS YT!"),
+        activity=discord.Activity(type=discord.ActivityType.watching, name="Developed By Skyler"),
         status=discord.Status.idle
     )
 
